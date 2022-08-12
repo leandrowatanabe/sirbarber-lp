@@ -17,6 +17,10 @@ body{
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 1rem;
+
+    display:flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .btn-sm{
@@ -25,15 +29,22 @@ body{
 }
 
 .btn-primary{
+    background-color: #E5383B;
+
+}
+
+.btn-primary:hover{
     background-color: #BA181B;
-    display:flex;
-    align-items: center;
-    gap: 20px;
 }
 
 .btn-outline{
     border: 2px solid #FFFFFF;
     background-color: transparent;
+}
+
+.btn-outline:hover{
+    color: #D9D9D9;
+    border: 2px solid #D9D9D9;
 }
 
 .container{
@@ -74,23 +85,27 @@ body{
 footer{
     background-color: #0B090A;
     color: #FFFFFF;
+}
 
+footer a{
+    color: currentColor;
+}
+
+
+.logocopy{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#footer-container{
     padding: 48px 72px;
 }
 
-.footer-text h2{
-    font-size: 48px;
-    line-height: 56px;
-    padding-bottom: 10px;
+.footer-logocopy{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
-.footer-text span{
+.footer-logocopy span{
     font-size: 16px;
     line-height: 24px;
 }
@@ -175,11 +190,10 @@ footer{
 
 #location-container{
     background-color: #F5F3F4;
-    padding: 48px 24px 0;
 }
 
-#location-container header{
-    padding: 48px;
+#location-container .location{
+    padding: 96px 72px 48px;
 }
 
 #location-container address{
