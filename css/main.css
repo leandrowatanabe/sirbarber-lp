@@ -53,8 +53,7 @@ body{
 
 #header-container{
     background-color: #0B090A;
-#header-container{
-    background-color: #0B090A;
+
 }
 
 .header{
@@ -72,7 +71,6 @@ body{
 .header-button:hover{
     color: #D9D9D9;
     border: 2px solid #D9D9D9;
-<<<<<<< HEAD
 }
 
 .header svg{
@@ -116,7 +114,6 @@ body{
     padding: 20px 20px;
     margin-top: 16px;
 }
-<<<<<<< HEAD
 
 
 .hero-button:hover{
@@ -129,7 +126,6 @@ body{
     margin-bottom: -20px;
 }
 
-/* SERVICES */
 /* SERVICES */
 
 .service-card img{
