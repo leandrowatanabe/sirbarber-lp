@@ -58,6 +58,11 @@ body{
     padding: 12px 24px;
 }
 
+.header-button:hover{
+    color: #D9D9D9;
+    border: 2px solid #D9D9D9;
+}
+
 .header svg{
     width: 86px;
     height: 26px;
@@ -92,6 +97,10 @@ body{
     background-color: #BA181B;
     padding: 20px 20px;
     margin-top: 16px;
+}
+
+.hero-button:hover{
+    background-color: #941B1D;
 }
 
 
